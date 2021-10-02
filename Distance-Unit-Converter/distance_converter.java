@@ -29,7 +29,7 @@ public class distance_converter{
             Scanner sc = new Scanner (System.in);
             int choice = sc.nextInt();
 
-            if(choice >15){
+            if(choice > 15){
                 System.out.println("\t\t!Invalid Choice of opperation");
             }
             else if(choice == 15){
@@ -45,86 +45,86 @@ public class distance_converter{
             switch (choice) {
                 case 1:
                 
-                    res = value / 10;
-                    System.out.println("\t\t" + value + " mm is equals to " + res +" cm.");
+                    //res = value / 10;
+                    System.out.println("\t\t" + value + " mm is equals to " + value / 10 +" cm.");
                     break;
 
                 case 2:
 
-                    res = value * 10;
-                    System.out.println("\t\t" + value + " cm is equals to " + res +" mm.");
+                    //res = value * 10;
+                    System.out.println("\t\t" + value + " cm is equals to " + value * 10 +" mm.");
                     break;
 
                 case 3:
                 
-                    res = value / 2.5f;
-                    System.out.println("\t\t" + value + " cm is equals to " + res + " inch.");
+                    //res = value / 2.5f;
+                    System.out.println("\t\t" + value + " cm is equals to " + value / 2.5f + " inch.");
                     break;
 
                 case 4:
 
-                    res = value * 2.5f;
-                    System.out.println("\t\t" + value + " inch is equals to " + res +" cm.");
+                    //res = value * 2.5f;
+                    System.out.println("\t\t" + value + " inch is equals to " + value * 2.5f +" cm.");
                     break;
 
                 case 5:
                 
-                    res = value / 10;
-                    System.out.println("\t\t" + value + " cm is equals to " + res + " dm");
+                    //res = value / 10;
+                    System.out.println("\t\t" + value + " cm is equals to " + value / 10 + " dm");
                     break;
             
                 case 6:
 
-                    res = value * 10;
-                    System.out.println("\t\t" + value + " dm is equals to " + res +" cm.");
+                    //res = value * 10;
+                    System.out.println("\t\t" + value + " dm is equals to " + value * 10 +" cm.");
                     break;
 
                 case 7:
                 
-                    res = value / 10;
-                    System.out.println("\t\t" + value + " dm is equals to " + res + " mtr");
+                    //res = value / 10;
+                    System.out.println("\t\t" + value + " dm is equals to " + value /10 + " mtr");
                     break;
             
                 case 8:
 
-                    res = value * 10;
-                    System.out.println("\t\t" + value + " mtr is equals to " + res +" dm.");
+                    //res = value * 10;
+                    System.out.println("\t\t" + value + " mtr is equals to " + value * 10 +" dm.");
                     break;
 
                 case 9:
                 
-                    res = value / 1000;
-                    System.out.println("\t\t" + value + " mtr is equals to " + res + " km");
+                   // res = value / 1000;
+                    System.out.println("\t\t" + value + " mtr is equals to " + value / 1000 + " km");
                     break;    
             
                 case 10:
                     
-                    res = value * 1000;
-                    System.out.println("\t\t" + value + " km is equals to " + res +" mtr.");
+                    //res = value * 1000;
+                    System.out.println("\t\t" + value + " km is equals to " + value * 1000 +" mtr.");
                     break;
 
                 case 11:
                 
-                    res = value /1.60934f;
-                    System.out.println("\t\t" + value + " km is equals to " + res + " mile");
+                    //res = value /1.60934f;
+                    System.out.println("\t\t" + value + " km is equals to " + value /1.60934f + " mile");
                     break;
            
                 case 12:
                 
-                    res = value * 1.60934f;
-                    System.out.println("\t\t" + value + " mile is equals to " + res +" km.");
+                    //res = value * 1.60934f;
+                    System.out.println("\t\t" + value + " mile is equals to " + value * 1.60934f +" km.");
                     break;
                     
                 case 13:
                 
-                    res = value /0.3048f;
-                    System.out.println("\t\t" + value + " mtr is equals to " + res + " foot");
+                    //res = value / 0.3048f;
+                    System.out.println("\t\t" + value + " mtr is equals to " + value / 0.3048f + " foot");
                     break;
                 
                 case 14:
                     
-                    res = value * 0.3048f;
-                    System.out.println("\t\t" + value + " foot is equals to " + res + " mtr");
+                    //res = value * 0.3048f;
+                    System.out.println("\t\t" + value + " foot is equals to " + value * 0.3048f + " mtr");
                     break;
                 
                 case 15:
@@ -132,9 +132,7 @@ public class distance_converter{
 					break;
 
                 default:
-
-                
-                    break;
+					break;
             }
         }
     }
