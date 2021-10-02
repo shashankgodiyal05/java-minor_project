@@ -87,56 +87,56 @@ class convert
 		{
 			float convRate = 0.80f;
 			result = value * convRate;
-			System.out.println(value + " CAD = " + result + " in D0llar ");
+			System.out.println(value + " CAD = " + result + " USD ");
 		}
 		
 		else if(c1==3 && c2==2)
 		{
 			float convRate = 59.23f;
 			result = value * convRate;
-			System.out.println(value + " CAN Dollar " + result + " in IND RS. ");
+			System.out.println(value + " CAD =  " + result + " INR. ");
 		}
 		
 		else if(c1==3 && c2==3)
 		{
 			float convRate = 1.00f;
 			result = value * convRate;
-			System.out.println(value + " CAN Dollar " + result + " in CAN D0llar ");
+			System.out.println(value + " CAD = " + result + " CAD ");
 		}
 		
 		else if(c1==3 && c2==4)
 		{
 			float convRate = 127.83f;
 			result = value * convRate;
-			System.out.println(value + " CAN Dollar " + result + " in PAK RS. ");
+			System.out.println(value + " CAD = " + result + " PKR ");
 		}
 		
 		else if(c1==4 && c2==1)
 		{
 			float convRate = 0.0062f;
 			result = value * convRate;
-			System.out.println(value + " PAK RS. " + result + " in Dollar ");
+			System.out.println(value + " PKR " + result + " USD ");
 		}
 		
 		else if(c1==4 && c2==2)
 		{
 			float convRate = 0.46f;
 			result = value * convRate;
-			System.out.println(value + " PAK RS. " + result + " in IND RS. ");
+			System.out.println(value + " PKR = " + result + " INR ");
 		}
 		
 		else if(c1==4 && c2==3)
 		{
 			float convRate = 0.0078f;
 			result = value * convRate;
-			System.out.println(value + " PAK RS. " + result + " in CAN Dollar ");
+			System.out.println(value + " PKR = " + result + " CAD ");
 		}
 		
 		else if(c1==4 && c2==4)
 		{
 			float convRate = 1.00f;
 			result = value * convRate;
-			System.out.println(value + " PAK RS. " + result + " in PAK RS. ");
+			System.out.println(value + " PKR " + result + " PKR ");
 		}
 		
 		else{
