@@ -4,18 +4,18 @@ class choices
 {
 	void from(){
 		System.out.println ("Select the currency you want to convert : ");
-		System.out.println ("1. U.S. Dollar.");
-		System.out.println ("2. Ind Rupees.");
-		System.out.println ("3. Can Dollar.");
-		System.out.println ("4. Pak Rupee.");
+		System.out.println ("1. U.S. Dollar(USD).");
+		System.out.println ("2. Indian Rupees(INR).");
+		System.out.println ("3. Canadian Dollar(CAD).");
+		System.out.println ("4. Pakistani Rupee(PKR).");
 	}
 	
 	void to(){
 		System.out.println ("Select the currency in which you want to convert : ");
-		System.out.println ("1. U.S. Dollar.");
-		System.out.println ("2. Ind Rupees.");
-		System.out.println ("3. Can Dollar.");
-		System.out.println ("4. Pak Rupee.");
+		System.out.println ("1. U.S. Dollar(USD).");
+		System.out.println ("2. Indian Rupees(INR).");
+		System.out.println ("3. Canadian Dollar(CAD).");
+		System.out.println ("4. Pakistani Rupee(PKR).");
 	}
 }
 
@@ -31,63 +31,63 @@ class convert
 		{
 			float convRate = 1.00f;
 			result = value * convRate;
-			System.out.println(value + " US Dollar is"; + result + " in US Dollar ");
+			System.out.println(value + " USD = "; + result + " USD ");
 		}
 
 		else if(c1==1 && c2==2)
 		{
 			float convRate = 75.00f;
 			result = value * convRate;
-			System.out.println(value + " US Dollar is " + result + " in IND RS. ");
+			System.out.println(value + " USD = " + result + " INR ");
 		}
 		
 		else if(c1==1 && c2==3)
 		{
 			float convRate = 59.30f;
 			result = value * convRate;
-			System.out.println(value + " US Dollar is " + result + " in CAN Dollar ");
+			System.out.println(value + " USD = " + result + " CAD ");
 		}
 		
 		else if(c1==1 && c2==4)
 		{
 			float convRate = 160.65f;
 			result = value * convRate;
-			System.out.println(value + " US Dollar is " + result + " in PAK RS. ");
+			System.out.println(value + " USD = " + result + " PKR ");
 		}
 		
 		else if(c1==2 && c2==1)
 		{
 			float convRate = 0.013f;
 			result = value * convRate;
-			System.out.println(value + " IND RS. " + result + " in US Dollar ");
+			System.out.println(value + " INR = " + result + " USD ");
 		}
 		
 		else if(c1==2 && c2==2)
 		{
 			float convRate = 1.00f;
 			result = value * convRate;
-			System.out.println(value + " IND RS. " + result + " in IND RS. ");
+			System.out.println(value + " INR = " + result + " INR ");
 		}
 		
 		else if(c1==2 && c2==3)
 		{
 			float convRate = 0.017f;
 			result = value * convRate;
-			System.out.println(value + " IND RS. " + result + " in CAN Dollar ");
+			System.out.println(value + " INR = " + result + " CAD ");
 		}
 		
 		else if(c1==2 && c2==4)
 		{
 			float convRate = 2.16f;
 			result = value * convRate;
-			System.out.println(value + " IND RS. " + result + " in PAK RS. ");
+			System.out.println(value + " INR = " + result + " PKR ");
 		}
 		
 		else if(c1==3 && c2==1)
 		{
 			float convRate = 0.80f;
 			result = value * convRate;
-			System.out.println(value + " CAN Dollar " + result + " in D0llar ");
+			System.out.println(value + " CAD = " + result + " in D0llar ");
 		}
 		
 		else if(c1==3 && c2==2)
